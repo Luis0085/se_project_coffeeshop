@@ -9,6 +9,7 @@
   height: 800px;
   box-sizing: border-box;
   padding: 30px 80px 40px;
+  z-index: 1;
 }
 
 .header__title {
@@ -27,6 +28,7 @@
   font-size: 60px;
   line-height: 72px;
   color: #3f96f3;
+  display: block;
 }
 
 .header__description {
@@ -38,7 +40,7 @@
 }
 
 .header__image {
-  z-index: 1;
+  z-index: -1;
   position: absolute;
   top: 124px;
   right: 5px;
