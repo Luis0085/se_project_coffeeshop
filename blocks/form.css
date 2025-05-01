@@ -1,0 +1,67 @@
+.form {
+  max-width: 385px;
+}
+.form__fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+.form__input {
+  border-radius: 4px;
+  margin: 8px 0 32px 0;
+  padding: 15px 20px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #838383;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+}
+.form__label {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+}
+.form__checkbox {
+  margin: 0;
+  padding: 0;
+  border-radius: 2px;
+}
+
+.form__button {
+  border-radius: 4px;
+  background-color: #1878dc;
+  padding: 20px 0;
+  margin-bottom: 32px;
+  width: 100%;
+  transition: background-color 1s linear;
+  border: none;
+  font-family: Inter, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  transition: opacity 1s linear;
+}
+
+.form__button:hover {
+  background-color: #3f96f3;
+  opacity: 0.7;
+}
+
+.form__label_type_checkbox {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.form__checkbox {
+  height: 20px;
+  width: 20px;
+}
